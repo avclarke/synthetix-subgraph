@@ -47,4 +47,5 @@ type FuturesOneMinStat @entity {
   id: ID!
   trades: BigInt!
   volume: BigInt!
+  timestamp: BigInt!
 }
